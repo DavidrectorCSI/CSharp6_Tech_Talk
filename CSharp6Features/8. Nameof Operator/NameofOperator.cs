@@ -12,8 +12,6 @@ namespace CSharp6Features
         public event PropertyChangedEventHandler PropertyChanged;
 
 
-
-
         private string _myString;
         public string MyString
         {
@@ -21,26 +19,19 @@ namespace CSharp6Features
             set
             {
                 _myString = value;
-                PropertyChanged(this, new PropertyChangedEventArgs("MyString")); 
+                PropertyChanged(this, new PropertyChangedEventArgs(nameof(_myString)));
             }
         }
-        
-
-
 
         public void ArgumentNull(string item)
         {
             if (item == null)
-                throw new ArgumentNullException("item"); 
+                throw new ArgumentNullException(nameof(item));
         }
-
-
-
 
         public void GetTypeName<T, TKey>(T item, TKey otherItem)
         {
-            
+            Console.WriteLine(nameof(T));
         }
-
     }
 }

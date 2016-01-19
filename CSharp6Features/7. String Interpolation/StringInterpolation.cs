@@ -15,16 +15,17 @@ namespace CSharp6Features
             //old
             var first = "David";
             var last = "Rector";
-            Console.WriteLine("Hello {0} {1}", first, last);
+            var fullname = string.Format("Hello {0} {1}", first, last);
 
             //new
-
+             fullname = $"Hello {first} {last}";
         }
         
         public void Formatting()
         {
             decimal money = 36537.45125M;
-            
+
+            Console.WriteLine($"{money:C2}");
         }
 
         public void ConditionalExpression()
@@ -33,7 +34,7 @@ namespace CSharp6Features
             var last = "Rector";
             var gender = "M";
 
-
+            string result = $"Hello, {(gender == "M" ? "Mr." : "Miss")} {first} {last}";
         }
 
         public void StringLiteral()
@@ -41,6 +42,7 @@ namespace CSharp6Features
             var directory = "C:";
             var file = "myFile.txt";
 
+            string x = $@"{directory}\{file}";
         }
     }
 }

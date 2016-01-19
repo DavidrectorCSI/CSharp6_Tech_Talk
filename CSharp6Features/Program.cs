@@ -10,7 +10,9 @@ namespace CSharp6Features
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IndexedItem(new string[] { }));
+            new ExceptionFilters().DoStuff();
+
+            Console.Read();
         }
 
         public static char IndexedItem(string[] arr)

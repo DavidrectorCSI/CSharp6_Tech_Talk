@@ -25,9 +25,14 @@ namespace CSharp6Features
     public class AutoPropertiesNew
     {
         //property with default value
+        public int Number { get; set; } = 15;
 
-        
         //readonly property
+        public string ReadOnly { get; } = "ReadOnly";
 
+        public AutoPropertiesNew()
+        {
+            ReadOnly = "new string";
+        }
     }
 }

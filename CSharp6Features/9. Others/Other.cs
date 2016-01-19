@@ -17,10 +17,14 @@ namespace CSharp6Features
                 {1, "hello"},
                 {2, "howdy"}
             };
-            
+
 
             //new
-            
+            new Dictionary<int, string>
+            {
+                [1] = "Hello",
+                [2] = "Howdy"
+            };
         }
 
         public async void AwaitInCatchFinally()
@@ -29,16 +33,14 @@ namespace CSharp6Features
             {
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                
+                await Task.Run(() => { });
             }
             finally
             {
- 
+
             }
         }
-
-        
     }
 }

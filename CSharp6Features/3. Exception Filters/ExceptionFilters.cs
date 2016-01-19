@@ -8,7 +8,6 @@ namespace CSharp6Features
 {
     public class ExceptionFilters
     {
-
         public void DoStuff()
         {
             int tries = 0;
@@ -20,7 +19,13 @@ namespace CSharp6Features
                 {
                     throw new Exception();
                 }
-                catch(Exception e) 
+                catch (Exception e) when (tries >= 5)
+                {
+                    Console.WriteLine("Catastrophic");
+                    return;
+                }
+                catch(ArgumentException argEx) when (argEx.ParamName == "MyObject")
+                catch(Exception e)
                 {
                     Console.WriteLine("Error Occurred");
                 }

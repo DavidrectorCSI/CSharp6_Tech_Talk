@@ -11,7 +11,22 @@ namespace CSharp6Features
     {
         public event EventHandler MyEvent;
 
-        
+
+        public void DoStuff()
+        {
+            string myString = null;
+
+            //old
+            string subString;
+            if (myString != null)
+            {
+                subString = myString.Substring(1, 10);
+            }
+
+            //new
+            subString = myString?.Substring(1, 10);
+        }
+
         public void DoEvent()
         {
             //old
@@ -21,6 +36,7 @@ namespace CSharp6Features
             }
 
             //new
+            MyEvent?.Invoke(this, null);
         }
 
         public void ReadXml(XDocument doc)
@@ -39,12 +55,15 @@ namespace CSharp6Features
             }
 
             //new
-
+            string attributeValueNew = doc.Descendants("MyElement")
+                                         .FirstOrDefault()
+                                        ?.Attribute("MyAttribute")
+                                        ?.Value;
         }
 
         public void NullCoalescingAndValueTypes(List<string> list)
         {
-
+            int count = list?.Count ?? 0;
         }
 
         //potential gotcha

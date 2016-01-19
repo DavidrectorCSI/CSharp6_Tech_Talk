@@ -45,12 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1. Auto Properties\AutoPropertiesCompleted.cs" />
+    <Compile Include="2. Static Imports\StaticImportsCompleted.cs" />
+    <Compile Include="3. Exception Filters\ExceptionFiltersCompleted.cs" />
+    <Compile Include="4. Expression Bodies\ExpressionBodyMembersCompleted.cs" />
+    <Compile Include="6. Null Conditional Operator\NullConditionalOperatorCompleted.cs" />
     <Compile Include="6. Null Conditional Operator\NullConditionalOperator.cs" />
     <Compile Include="1. Auto Properties\AutoProperties.cs" />
     <Compile Include="3. Exception Filters\ExceptionFilters.cs" />
     <Compile Include="4. Expression Bodies\ExpressionBodyMembers.cs" />
+    <Compile Include="7. String Interpolation\StringInterpolationCompleted.cs" />
     <Compile Include="7. String Interpolation\StringInterpolation.cs" />
+    <Compile Include="8. Nameof Operator\NameofOperatorCompleted.cs" />
     <Compile Include="8. Nameof Operator\NameofOperator.cs" />
+    <Compile Include="9. Others\OtherCompleted.cs" />
     <Compile Include="9. Others\Other.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,15 +7,16 @@ using static System.Console;
 using static System.Math;
 using static System.Threading.Tasks.Parallel;
 using static System.Linq.Enumerable;
+using static System.Convert;
 
 namespace CSharp6Features
 {
-    public class StaticImportsContd
+    public class StaticImportsContd 
     {
         public StaticImportsContd()
         {
             var list = Range(0, 999);
-            ForEach(list, i => WriteLine(Abs(i)));
+            ForEach(list, i => WriteLine(ToDouble(Abs(i))));
         }
     }
 }

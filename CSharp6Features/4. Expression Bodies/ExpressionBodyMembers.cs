@@ -12,15 +12,15 @@ namespace CSharp6Features
 
         public void PrintName(string first, string last)
         {
-            Console.WriteLine($"{first} {last}");
+            Console.WriteLine(first + " " + last);
         }
-
-
     }
 
     public class ExpressionBodyMembersNew
     {
-         
+        public DateTime Yesterday => DateTime.Now.AddDays(-1);
+
+        public void PrintName(string first, string last) => Console.WriteLine(first + " " + last);
     }
     
 }
