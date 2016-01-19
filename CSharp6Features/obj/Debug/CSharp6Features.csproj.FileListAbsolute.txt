@@ -1,0 +1,16 @@
+c:\users\david.rector\desktop\C#6\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.exe
+c:\users\david.rector\desktop\C#6\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.pdb
+c:\users\david.rector\desktop\C#6\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.csprojResolveAssemblyReference.cache
+c:\users\david.rector\desktop\C#6\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.exe
+c:\users\david.rector\desktop\C#6\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.pdb
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.exe
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.pdb
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.exe
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.pdb
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\bin\Debug\Newtonsoft.Json.dll
+C:\Users\david.rector\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.csprojResolveAssemblyReference.cache
+C:\Users\Jonesy\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.exe
+C:\Users\Jonesy\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.pdb
+C:\Users\Jonesy\Desktop\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.exe
+C:\Users\Jonesy\Desktop\TechTalk\CSharp6Features\bin\Debug\CSharp6Features.pdb
+C:\Users\Jonesy\Desktop\TechTalk\CSharp6Features\obj\Debug\CSharp6Features.csprojResolveAssemblyReference.cache
